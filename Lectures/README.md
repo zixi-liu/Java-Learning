@@ -87,5 +87,28 @@ java虚拟机会给每个对象分配this，代表当前对象。
 - package表示打包
 - com.hspedu表示包名
 
+常用的包
+- java.lang. 基本包
+- java.util. 系统工具包，使用Scanner
+- java.net. 网络包，网络开发
+- jaba.awt. java界面的开发，GUI
+
+### 279 访问修饰符
+
+- public
+- protected：对子类和同一个包中的类公开
+- 默认：向同一个包的类公开
+- private：只有类本身可以访问
+
+### 280 封装
+
+封装(encapsulation)就是把抽象出的数据[属性]和对数据的操作[方法]封装在一起。
+
+**封装实现的步骤**
+- 将属性私有化private
+- 提供一个public的set方法，用于对属性判断并赋值（数据验证的业务逻辑）。
+- 提供一个public的get方法，用于获取属性的值（权限判断）。
+
+
 
 
