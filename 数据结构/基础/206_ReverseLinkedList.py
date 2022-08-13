@@ -1,5 +1,8 @@
 # 单链表反转 
 
+# Time complexity : O(n)O(n). Assume that nn is the list's length, the time complexity is O(n)O(n).
+# Space complexity : O(1)O(1).
+    
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, val=0, next=None):
